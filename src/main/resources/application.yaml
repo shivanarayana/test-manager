@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: test-manager
+
+# Test Manager Project's application.yaml (Port 9002)
+server:
+  port: 9012
+
+# Configure the URL of the Kafka Application's Actuator endpoint
+# This makes the URL easy to change without recompiling the Java code.
+verification:
+  kafka-health-url: http://localhost:9001/actuator/health
