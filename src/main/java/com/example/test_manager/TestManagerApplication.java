@@ -11,10 +11,4 @@ public class TestManagerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TestManagerApplication.class, args);
 	}
-
-	// Define RestTemplate as a bean for use in the controller/service
-	@Bean
-	public RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
 }
