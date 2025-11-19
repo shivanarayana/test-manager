@@ -13,7 +13,7 @@ Aggregated Health: This endpoint automatically returns the combined health statu
 
 The design we've implemented already provides the perfect interface for the Test Manager.**
 
-http://localhost:9012/verify-readiness
+http://localhost:9012/health/bulk
 
 Internal Mock API
 
